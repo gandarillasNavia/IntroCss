@@ -1,11 +1,11 @@
-/* div{
+div{
     width: 250px;
     height: 250px;
     background-color: orange;
-} */
-/* p{
+}
+p{
     color: orange;
-} */
+}
 .caja{
     width: 150px;
     height: 150px;
@@ -26,10 +26,10 @@
     height: 150px;
     background-color: hsl(0,68%,63%);
 }
-/* *{
+*{
     color: green;
     font-weight: bolder;
-} */
+}
 #soy_unico{
     width: 250px;
     height: 50px;
@@ -45,13 +45,13 @@ button:hover{
 input:disabled{
     background-color: black;
 }
-/* p::first-line{
+p::first-line{
     color: green;
-} */
-/* p::first-letter{
+} 
+p::first-letter{
     color: red;
     font-size: 45px;
-} */
+} 
 .capibara1,.capibara2,.capibara3{
     width: 100px;
     height: 100px;
