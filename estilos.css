@@ -3,9 +3,9 @@ div{
     height: 250px;
     background-color: orange;
 }
-p{
+/* p{
     color: orange;
-}
+} */
 .caja{
     width: 150px;
     height: 150px;
@@ -26,10 +26,10 @@ p{
     height: 150px;
     background-color: hsl(0,68%,63%);
 }
-*{
+/* *{
     color: green;
     font-weight: bolder;
-}
+} */
 #soy_unico{
     width: 250px;
     height: 50px;
@@ -45,19 +45,70 @@ button:hover{
 input:disabled{
     background-color: black;
 }
-p::first-line{
+/* p::first-line{
     color: green;
-} 
-p::first-letter{
+}  */
+/* p::first-letter{
     color: red;
     font-size: 45px;
-} 
+}  */
 .capibara1,.capibara2,.capibara3{
     width: 100px;
     height: 100px;
     background-color: violet;
 }
-
 .padre p{
     color: red;
 }
+p#unico.foo.p{
+    color: red;
+}
+p#unico.foo.bar{
+    color: orange!important;
+}
+.main{
+    color: rebeccapurple;
+    border:  2px solid #ccc;
+    padding: 1em;
+}
+.special{
+    color: red;
+    font-weight: bold;
+}
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+.caja2{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15, 125, 36);
+}
+.caja_interior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.caja_interior p{
+    font-size: 4rem;
+}
+body{
+    margin: 0%;
+}
+.a{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    /* padding-bottom: 25px;
+    border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px dashed green; */
+    border: 12px solid yellow;
+    margin: 25px;
+    
+} 
